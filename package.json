@@ -1,0 +1,22 @@
+{
+  "name": "sd-frontend",
+  "version": "0.1.0",
+  "description": "Starting Dreams CMS Frontend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:StartingDreams/sd-frontend.git"
+  },
+  "author": "David Smith <david@startingdreams.com>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "pug": "^2.0.0-alpha3",
+    "serve-favicon": "^2.3.0"
+  }
+}
