@@ -1,18 +1,11 @@
-/**
- * Created by david on 4/9/16.
- */
-// Express
 var express = require("express"),
     path = require("path"),
     bodyParser = require("body-parser"),
     favicon = require("serve-favicon"),
-    app = express();
+    app = express(),
+    env = require('./config/env.js'),
+    mongoose = require('./mongoose.test');
 
-// Environment defaults
-env = {
-    "port": process.env.FRONTEND_PORT || 3000,
-    "environment": process.env.ENVIRONMENT || "development"
-};
 
 // Settings
 var publicPath = path.join(__dirname, "public");
